@@ -20,10 +20,12 @@ body {
 }
 
 .top {
+    background-color: #86838362; 
+    padding: 20px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    
 }
 
 .title {
