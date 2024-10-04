@@ -1,0 +1,49 @@
+.container {
+    width: 950px;
+    background-color: silver;
+    padding: 20px; /* Agrega un relleno interno */
+}
+
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px; /* Añade espacio debajo */
+}
+
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    padding: 10px; /* Relleno interno */
+    margin-right: 10px; /* Espacio a la derecha */
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin-left: 20px;
+    padding: 15px; /* Relleno interno para el contenido */
+}
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px; /* Espacio entre elementos */
+    padding: 10px; /* Relleno interno */
+}
+
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top: 20px; /* Espacio en la parte superior */
+    padding: 10px; /* Relleno interno */
+}
+
+.row {
+    display: flex; /* Aplica display flex */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si es necesario */
+    justify-content: space-between; /* Espaciado entre elementos */
+}
