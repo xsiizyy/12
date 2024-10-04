@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+} 
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col {
+    background-color: #6da4a4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    flex: 1;
+}
